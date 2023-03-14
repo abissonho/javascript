@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Boas-Vindas</title>
+    <style>
+        body{
+            background-color: lightgray;
+            color: white;
+        }
+
+        .btn{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+
+
+            width: 150px;
+            height: 100px;
+            display: block;
+            margin: auto;
+
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <button onclick="clickou()" class="btn">Inicie o Desafio</button>
+        <script>
+            function clickou(){
+                var nome = window.prompt('qual seu nome?')
+                 var idade = window.prompt(`Olá ${nome}, qual sua idade?`)
+                window.alert(`Acabei de conhecer ${nome}, que tem ${idade} anos de idade.`)
+            }
+        </script>
+</body>
+</html>
