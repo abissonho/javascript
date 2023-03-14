@@ -9,7 +9,7 @@ Aprende-se o básico sobre o JavaScript, Um Pouco da história e Da seus primeir
 
 Módulo B
 
-Aprende-se sobre Armazenamento de Dados, Tratamento de Dados e Operção com Dados.
+Aprende-se sobre Armazenamento de Dados, Tratamento de Dados e Operação com Dados.
 
 Módulo C
 
