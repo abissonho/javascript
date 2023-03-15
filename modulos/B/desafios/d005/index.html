@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Conversor de Medidas</title>
     <style>
         body{
             font-size: 1.5em;
         }
 
         .btn{
+            display: block;
             width: 200px;
             height: 100px;
         }
@@ -19,6 +20,7 @@
 <body>
     <h1>Conversor de Medidas</h1>
     <button onclick="clicou()" class="btn">Conversor</button>
+    <p>Aperte no botão para inciar a conversão.</p>
         <script>
             function clicou(){
                 var m = Number(window.prompt('digite uma distancia em metro'))
@@ -36,6 +38,7 @@
                 document.write(`<p> ${dm} decímetros (dm) .<p>`)
                 document.write(`<p> ${cm} centímetros (cm)  .<p>`)
                 document.write(`<p>  ${mm} milímetros (mm) .<p>`)
+                
             }
         </script>
 </body>
