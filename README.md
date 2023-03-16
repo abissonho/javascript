@@ -16,3 +16,9 @@ Módulo C
 Aprende-se sobre DOM (Documetn Object Model), Árvore DOM e Manipulação do DOM.
 
 Módulo D
+
+Aprende-se sobre Condições, condições simples, condições compostas, condições aninhadas e condições múltiplas
+
+Módulo E
+
+
