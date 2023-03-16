@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pais</title>
+</head>
+<body>
+    <h1>Identificando Estrangeiros</h1>
+    De Onde você é??<input type="text" name="pais" id="pais">
+    <input type="button" value="identificador" onclick="clicar()">
+    <div id="res">Resultado</div>
+    <script>
+        function clicar() {
+            var id = window.document.getElementById('pais')
+            var res = window.document.getElementById('res')
+            if (id == 'brasil') {
+                res.innerHTML = `<p> Você é Brasileiro!</p>` 
+            } else {
+                res.innerHTML = `<p>Você é estrangeiro!</p>`
+            }
+        }
+    </script>
+</body>
+</html>
