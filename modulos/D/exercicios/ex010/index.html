@@ -13,11 +13,13 @@
     <div id="res">Resultado</div>
     <script>
         function clicar() {
-            var id = window.document.getElementById('pais')
+            var pais = window.document.getElementById('pais')
             var res = window.document.getElementById('res')
-            if (id == 'brasil') {
-                res.innerHTML = `<p> Você é Brasileiro!</p>` 
-            } else {
+            var id = String(pais)
+            if (id === 'brasil') {
+                res.innerHTML = `<p> Você é Brasileiro!</p>`
+            } 
+            else {
                 res.innerHTML = `<p>Você é estrangeiro!</p>`
             }
         }
