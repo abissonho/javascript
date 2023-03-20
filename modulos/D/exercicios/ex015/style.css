@@ -43,14 +43,12 @@ section > div > p > input{
     padding: 4px;
 }
 
-.foto{
-    margin: auto;
-    display: block;
-
-}
-
 .result{
     text-align: center;
+}
+
+#foto{
+    margin: auto;
 }
 
 footer{

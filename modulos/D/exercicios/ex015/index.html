@@ -14,17 +14,17 @@
     <main>
         <section>
             <div>
-                <p>Ano de nascimento: <input type="number" name="txtano" id="txtano" min="0"></p>
+                <p>Ano de nascimento: 
+                    <input type="number" name="txtano" id="txtano" min="0">
+                </p>
                 <p>Sexo:
-                    <input type="radio" name="radsex" id="masc" checked>
-                    <label for="masc">Masculino</label>
-                    <input type="radio" name="radsex" id="fem">
+                    <input type="radio" name="radsex" id="mas" checked>
+                    <label for="mas">Masculino</label>                    <input type="radio" name="radsex" id="fem">
                     <label for="fem">Feminino</label>
                 </p>
-                <p><input type="button" value="Verificar" class="verify" onclick="verificar()"></p>
-            </div>
-            <div>
-                <img src="imagens/jovem-m.png" alt="foto-qualquer" class="foto">
+                <p>
+                    <input type="button" value="Verificar" onclick="verificar()" class="verify">
+                </p>
             </div>
             <div id="res" class="result">
                 <p>Preencha os dados acima para ver o resultado!!</p>
@@ -32,7 +32,9 @@
         </section>
     </main>
     <footer>
-        <p>&copy;<a href="https:/instagram.com/Alexbissonho" target="_blank"> @Alexbissonho</a></p>
+        <p>&copy;
+            <a href="https:/instagram.com/Alexbissonho" target="_blank"> @Alexbissonho</a>
+        </p>
     </footer>
     <script src="script.js"></script>
 </body>
