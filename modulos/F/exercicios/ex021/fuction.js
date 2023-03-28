@@ -1,11 +1,10 @@
-function parimpar(n){
-    if(n%2 == 0){
+function parimpar(n){ //Parâmetro 
+    if(n%2 == 0){ //Ação
         return 'Par'
     }else{
         return 'Impar'
     }
 }
-
-let res = parimpar(6)
-console.log(res)
-console.log(parimpar(9))
+//console.log(parimpar(n))
+let res = parimpar(6) //Chamada
+console.log(res) 
